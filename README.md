@@ -1,6 +1,7 @@
 # Airflow Google Chat Integration
 ### Send airflow dag task sucess and failure alerts to google chat 
-This repository is created for my medium article. 
+This repository is created for my medium article. <br>
+Read Complete Article: https://kashif-sohail.medium.com/real-time-airflow-alerts-to-google-chat-b443ec7487cc
 <br>
 <img src="images/airflow-gchat.png">
 
