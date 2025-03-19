@@ -162,6 +162,9 @@ def task_success_alert(context):
         }]
     }
     full_url = _get_webhook_url(GCHAT_CONNECTION)
+    if not full_url.startswith('http'):
+        full_url = f"https://{full_url}"
+        
     print("sending alert card")
     _make_http_request(body, full_url)
 

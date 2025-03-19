@@ -18,7 +18,7 @@ Create a Google Chat Space and Webhook
 - Access the Airflow Web UI.
 - Navigate to the Connections Page.
 - Add a New Connection.
-- In the host section, paste the webhook URL (excluding the key), and add the key to the password box.
+- In the host section, paste the webhook URL.
 
 `For the purpose of this tutorial, a connection named 'gchat_webhook' has already been added.`
 
